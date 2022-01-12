@@ -1,0 +1,458 @@
+@media screen and (min-width:993px) and (max-width:1200px)
+{
+    header li a:hover
+    {
+        padding-top: 10%;
+    }
+    .vignette img 
+    {
+        width: 145px;
+        height: 120px;
+    }
+    .vignette 
+    {
+        width: 150px;
+    }
+    .vignettes h2 
+    {
+        margin-right: 40%;
+    }
+    .vignettes
+    {
+        width: 59%;
+        margin-right: 1%;
+    }
+    .pop img 
+    {
+        width: 145px;
+        height: 100px;
+    }
+    .populaires 
+    {
+        width: 32%;
+    }
+    .petite_activite img 
+    {
+        height: 135px;
+    }
+    .grande_activite img 
+    {
+        height: 320px;
+    }
+    .activites b 
+    {
+        width: 0%;
+    }
+
+}
+
+
+/*Desktop*/
+@media screen and (min-width: 992px)
+{
+    .icone_loupe
+    {
+        display: none;
+    }
+   
+
+}
+
+/*Tablet*/
+@media screen and (max-width: 992px)
+{
+    body 
+    {
+        width: 768px;
+    }
+    .icone_loupe
+    {
+        display: none;
+    }
+    header  
+    {
+        width: 90%;
+    }
+    header img 
+    {
+        margin-left: 15%;
+    }
+    header li a:hover
+    {
+    border-top: 4px solid blue;
+    padding-top: 5px;
+    color: blue;
+    }
+    h1 
+    {
+        margin-left: 4%;
+    }
+    #recherche p 
+    {
+        margin-left: 5%;
+    }
+    .recherche_bar
+    {
+        margin-left: 4%;
+    }
+    #info i 
+    {
+        margin-left: 4%;
+    }
+    .filtres ul 
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #ensemble
+    {
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .vignettes /*ensemble des vignettes hebergements*/
+    {
+        width: 90%;
+        padding: 5px;
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }
+    .vignette img 
+    {
+        width: 290px;
+    }
+    .vignette
+    {
+        margin-left:4%;
+    }
+    .populaires /*ensemble des plus populaires*/
+    {
+        display: flex;
+        width: 90%;
+        justify-content: center;
+        padding: 5px;
+        margin: 8px;
+        margin-left: 30px;
+    }
+    .pop 
+    {
+        display: flex;
+        flex-direction: row;
+        margin: 5px;
+        margin-top: 30px;
+    }
+    .pop img 
+    {
+        height: 150px;
+        width: 200px;
+    } 
+    .populaires h2 
+    {
+        margin-top: 20px;
+    }
+    .populaires h2 i 
+    {
+        margin-left: 400px;
+    }
+    .descriptif
+    {
+        margin-top: 30px;
+    }
+    .descriptif p 
+    {
+        margin: 10% 0%;
+    }
+    h3 
+    {
+        padding-left: 40px;
+    }
+    #ensemble_activites
+    {
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+        padding-left: 70px;
+    }
+    .grande_activite
+    {
+        width: 90%;
+        padding-bottom: 3%;
+    }
+    .grande_activite img 
+    {
+        height: 250px ;
+        padding-bottom: 3%;
+        object-fit: cover;
+    }
+    .petite_activite
+    {
+        width: 90%;
+        padding-bottom: 3%;
+    }
+    .petite_activite img 
+    {
+        height: 250px;
+        padding-bottom: 3%;
+        object-fit: cover;
+    }
+    .tronque 
+    {
+        height: 250px;
+    }
+    .tronque img 
+    {
+        width: 100%;
+        object-fit: cover;
+    }
+    .bloc_footer
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .infos_page
+    {
+        margin-left: 20px;
+    }
+    .assistance
+    {
+        margin-left: 20px;
+    }   
+}
+
+/*Smartphone*/
+@media screen and (max-width: 767px)
+{
+    body 
+    {
+        width: 375px;
+    }
+    header
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+    header ul
+    {
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+        margin-bottom: 0px;
+    }
+    header li 
+    {
+        width: 50%;
+        margin: 0px;
+        border-bottom: 3px solid #F2F2F2;
+        
+    }
+    nav li 
+    {
+        text-align: center;
+    }
+    header li:hover
+    {
+    border-top: 0px;
+    border-bottom: 3px solid blue;
+    color: blue;
+    }
+    header li a:hover
+    {
+        border: 0px;
+        padding: 0px;
+    }
+    header img 
+    {
+        margin-left: 40%;
+    }
+    h1 
+    {
+        margin-left: 5%;
+    }
+    #recherche p 
+    {
+        margin-left: 5%;
+    }
+    .bouton_rechercher
+    {
+        display: none;
+    }
+    .recherche_bar
+    {
+        margin-left: 5%;
+        width: 315px;
+    }
+    .icone_loupe
+    {
+        color: white;
+        background-color: blue;
+        border-radius: 25%;
+        display: inline-block;
+    }
+    .icone_loupe i 
+    {
+        color: white;
+        background-color: blue;
+    }
+    .filtres
+    {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .filtres ul
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    
+    #info 
+    {
+        margin-left: 5%;
+    }
+    #info i 
+    {
+        padding: 0.9% 2%;
+    }
+    #ensemble
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .populaires /*ensemble des plus populaires - Flex Container */
+    {
+        display: flex;
+        order: 1;
+        width: 95%;
+        margin-bottom: 20px;
+        margin-left: 1%;
+    }
+    .populaires h2
+    {
+        margin: 5%;
+    }
+    .populaires h2 i 
+    {
+        margin-left: 70px;
+    }
+    .pop
+    {
+        display: flex;
+        flex-direction: row;
+        margin: 2%;
+    }
+    .pop img 
+    {
+        height: 150px;
+        width: 150px;
+        object-fit: cover;
+        border-top-left-radius: 10% ;
+        border-bottom-left-radius: 10%;
+    }
+    .descriptif p 
+    {
+        margin: 3% 0% 20%;
+    }
+    .vignettes h2
+    {
+        margin-right: 0%;
+        margin-bottom: 0%;
+    }
+    .vignettes 
+    {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        order: 2;
+        margin-left: 0%;
+    }
+    .vignette img 
+    {
+        width: 315px;
+        height: 100px;
+        padding: 5px;
+        object-fit: cover;
+        object-position: center;
+    }
+    .vignette
+    {
+        box-shadow: 5px 5px 5px #F2F2F2;
+        width: 320px;
+        margin: 3%;
+        margin-right: 0%;
+        margin-bottom: 20px;
+    }
+    #ensemble_activites /*conteneur*/
+    {
+        display: flex;
+        flex-direction: column;
+        margin: 5%;
+        padding-left: 10px;
+    }
+    #ensemble_activites img 
+    {
+        object-fit: cover;
+    }
+    .activites
+    {
+        margin: 3%;
+    }
+    .grande_activite
+    {
+        width: 90%;
+        padding-bottom: 5%;
+    }
+    .petite_activite
+    {
+        width: 90%;
+        padding-bottom: 5%;
+    }
+    .grande_activite img 
+    {
+        height:140px;
+    }
+    .petite_activite img 
+    {
+        height: 140px;
+    }
+    .petite_activite p 
+    {
+        margin-bottom: 0px;
+    }
+    .tronque
+    {
+        object-fit: cover;
+        width: 100%;
+        height: 140px;
+    }
+    .tronque img 
+    {
+        width: 100%;
+    }
+
+    h3 
+    {
+        padding-left: 7%;
+        margin-top: 25px;
+    }
+    .bloc_footer
+    {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .infos_page
+    {
+        padding-left: 3%;
+        margin-left: 0%;
+    }
+
+    .assistance
+    {
+        padding-left: 3%;
+        margin-left: 0%;
+    } 
+}

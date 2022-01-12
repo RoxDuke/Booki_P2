@@ -1,0 +1,374 @@
+.b
+{
+    font-weight: bold;
+}
+body
+{
+    font-family: 'Raleway';
+    margin: auto;
+    max-width: 1200px;
+}
+/*en-tête*/
+header
+{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header img
+{
+    height: 50px;
+}
+header ul
+{
+    display: flex;
+    flex-direction: row;
+}
+header li 
+{
+    margin-left: 2%;
+}
+header li a 
+{
+    text-decoration: none;
+    color:black;
+}
+header li a:hover
+{
+    border-top: 4px solid blue;
+    padding-top: 10px;
+    color: blue;
+}
+/*partie filtres*/
+.filtres
+{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: baseline;
+}
+.filtres ul
+{
+    display:flex;
+}
+.filtres li
+{
+    display: flex;
+    flex-wrap: nowrap;
+    border: solid 2px;
+    border-radius:  25px;
+    border-color:#F2F2F2;
+    margin: 2%;
+    align-items: baseline;
+    white-space: nowrap;
+}
+.filtres span
+{
+    padding-right: 7px;
+    padding-left: 8px;
+}
+
+.filtres ul span:hover /*survol des filtres*/
+{
+    color:#0065FC;
+    background-color: white;
+}
+
+.filtres a 
+{
+    background: right;
+    vertical-align: middle;
+}
+
+.filtres i /*icones*/
+{
+    color: #0065FC;
+    background-color:#DEEBFF;
+    border-radius: 100%;
+    padding: 12px; /*utilisation des % génère des différences en fonction des liens*/
+    margin: 0%;
+}
+/*bouton navigation*/
+nav ul,nav li
+{
+    list-style-type:none;
+    text-align: right;
+}
+
+.recherche_bar
+{
+    display:flex;
+    flex-wrap: nowrap;
+    border: 1px solid #F2F2F2;
+    border-radius:15px;
+    margin-right: 0%;
+    padding: 0%;
+    width: 301px;
+}
+.recherche_bar input
+{
+    font-weight: bold;
+    border: 2px solid white ;  
+    background-color:white;
+    border-radius:10%;
+    text-align:center;
+}
+.recherche_bar i
+{
+    color: black;
+    background-color: #F2F2F2;
+    border-radius: 10px 0 0 10px;
+    padding: 12px;
+    margin: 0%;
+}
+
+.bouton_rechercher
+{
+  border: 10px solid blue ;  
+  color: white;
+  font-weight: bold;
+  background-color: blue;
+  border-radius:0 10px 10px 0;
+}
+
+#info
+{
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+}
+
+#info i
+{
+    font-size: small;
+    border: 1px solid grey;
+    background-color: white;
+    border-radius: 100%;
+    color: blue;
+    padding: 0.5% 0.8%; 
+}
+#info p
+{
+    padding: 1%;   
+}
+
+.vignettes/*ensemble des vignettes hebergements - Flex Container */
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 66%;
+    margin-right: 5%;
+    background-color:#F2F2F2;
+    border-radius: 10px;
+    padding-bottom: 1%;
+    padding-left: 3%;
+}
+
+.vignette /*vignette d'hebergement - Flex item  */
+{
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 2%; 
+    margin: 2%;
+}
+.vignette a 
+{
+    text-decoration: none;
+    color: black;
+}
+.vignettes h2
+{
+    margin-right: 50%;
+    padding: 0%;
+}
+
+.vignette img 
+{
+    height: 120px;
+    width: 190px;
+    border-radius: 10% 10% 0 0;
+}
+.etoiles i
+{
+    color:grey;
+    font-size: small;
+}
+.etoiles i.bleu
+{
+    color:#0065FC;
+    font-size: small;
+}
+
+.recherche
+{
+    display: flex;
+    height: 50px;
+}
+
+.populaires /*ensemble des plus populaires - Flex Container */
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 33%;
+    background-color:#F2F2F2;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    padding:2%;
+
+}
+
+.pop/*populaires - Flex item  */
+{
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 5%; 
+    margin: 5%;
+    vertical-align: baseline;
+}
+.pop a 
+{
+    text-decoration: none;
+    color: black;
+}
+
+.populaires h2
+{
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    text-align: left;
+    justify-content: space-between;
+}
+.descriptif /*texte des plus populaires*/
+{
+    display: flex;
+    flex-direction: column; 
+    padding-left: 2%;
+    margin-bottom: 0%;
+}
+
+.descriptif p 
+{
+    margin: 4% 0 0 0;
+
+}
+.pop img 
+{
+    height: 100px;
+    width: 170px;
+    border-top-left-radius: 10% ;
+    border-bottom-left-radius: 10%;
+}
+#ensemble
+{
+    display: flex;
+    flex-direction: row ;
+}
+.pop .etoiles
+{
+    display: flex;
+    flex-direction: row;
+}
+h4
+{
+    padding-top: 3%;
+}
+#ensemble_activites /*conteneur*/
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap:nowrap;    
+}
+.activites
+{
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #F2F2F2;
+}
+.grande_activite img
+{
+    border-radius: 10px;
+    height: 350px;
+    padding-bottom: 7%;
+}
+
+.petite_activite img
+{
+    border-radius: 10px;
+    height: 160px;
+    padding-bottom: 7%;
+}
+.bloc_activites
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.grande_activite
+{
+    width: 25%;
+    padding-bottom: 2px;
+    margin-bottom: 40px;
+}
+
+.petite_activite
+{
+    width: 100%;
+    padding-bottom: 6%;
+    margin-bottom: 40px;
+}
+.tronque
+{
+    height: 100px; 
+    overflow: hidden;
+}
+.petite_activite p 
+{
+    margin-bottom: 5px;
+}
+.bloc_footer /*pied de page */
+{
+    display: flex;
+    flex-direction: row;
+    background-color: #F2F2F2;
+    padding-bottom: 3%;
+    padding-top: 2%;
+    margin-top: 4%;
+}
+.conditions
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 15%;
+    padding-left: 3%;
+}
+.infos_page
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 25%;
+}
+.texte_footer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+.bloc_footer a 
+{
+    line-height: 35px;
+    text-decoration: none;
+    color: grey;
+}
